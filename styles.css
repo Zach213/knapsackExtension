@@ -1,0 +1,63 @@
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+p{
+    color: rgb(0 0 0);
+}
+body{
+    background: linear-gradient(rgb(201 255 203),rgb(255 209 152 / 59%),rgb(225 232 246),rgb(201 255 203));
+}
+.top-icon{
+    position: center;
+}
+.bag-pic{
+    background-repeat: no-repeat;
+    position: absolute;
+    opacity: 20%;
+    margin-left: -92%;
+    margin-top: 100%;
+    width: 187%;
+    height: 132%;
+}
+#btn{
+    position: relative;
+    padding: 30px;
+    margin-top: 20px;
+    width: 50%;
+    background-color: rgb(198, 197, 197);
+    color: black;
+    position: absolute;
+    left:25%;
+}
+#btn:hover{
+    background-color:rgb(219, 219, 219);
+    cursor: pointer;
+}
+#intro{
+    color: rgb(50, 50, 50);
+}
+h1{
+    text-align: center;
+}
+.lets{
+    color: rgb(125, 119, 119)
+
+}
+.theForm{
+    opacity: 90%;
+}
